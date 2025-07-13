@@ -17,7 +17,15 @@ public class HelloApplication extends Application {
                         getClass().getResource("/com.example.hellofx/views/action.fxml")
                 )
         );
+
         Scene scene = new Scene(root);
+
+        String css = Objects.requireNonNull(
+                getClass().getResource("/com.example.hellofx/assets/style.css")
+            ).toExternalForm();
+        scene.getStylesheets().add(css);
+
+        stage.setTitle("Java CSS and Transitions");
         stage.setScene(scene);
         stage.show();
     }
@@ -26,3 +34,5 @@ public class HelloApplication extends Application {
         launch(args);
     }
 }
+
+
