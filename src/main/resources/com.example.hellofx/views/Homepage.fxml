@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="975.0" style="-fx-background-color: #f3f3f3;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="56.0" prefWidth="975.0" style="-fx-background-color: #f9f9f9; -fx-padding: 12 24;" AnchorPane.leftAnchor="-0.026119299386664352" AnchorPane.rightAnchor="-0.026119299386664352" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="Walter" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Poppins SemiBold" size="24.0" />
+               </font>
+            </Label>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <HBox alignment="CENTER" prefHeight="35.0" prefWidth="301.0" spacing="24.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Hyperlink text="Home" textFill="#585858">
+                     <font>
+                        <Font name="Poppins Regular" size="14.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink layoutX="10.0" layoutY="16.0" text="About" textFill="#585858">
+                     <font>
+                        <Font name="Poppins Regular" size="14.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink layoutX="53.0" layoutY="16.0" text="Blogs" textFill="#585858">
+                     <font>
+                        <Font name="Poppins Regular" size="14.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink layoutX="97.0" layoutY="16.0" text="Contact" textFill="#585858">
+                     <font>
+                        <Font name="Poppins Regular" size="14.0" />
+                     </font>
+                  </Hyperlink>
+               </children>
+            </HBox>
+            <Region layoutX="116.0" layoutY="22.0" prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: #111111;" text="Get started" textFill="#dddddd" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Poppins Medium" size="14.0" />
+               </font>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></HBox>
+   </children>
+</AnchorPane>
